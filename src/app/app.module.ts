@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MapTestComponent } from './map-test/map-test.component';
+import { JsonIterateComponent } from './json-iterate/json-iterate.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapTestComponent,
+    JsonIterateComponent
   ],
   imports: [
     BrowserModule
