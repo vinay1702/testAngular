@@ -10,8 +10,13 @@ export class ArraylistIterateComponent implements OnInit {
   constructor() { }
   someArray = [1, "string", false];
   ngOnInit() {
-    for (let entry of this.someArray) {
-      console.log(entry); // 1, "string", false
-    }
+    this.someArray = this.filter(this.someArray)
+  }
+  filter(kuchbhi: Array<any>) {
+    /* kuchbhi = kuchbhi.filter(abc => abc !== false);
+    for (let a in kuchbhi) {
+      console.log('---> ' + a);
+    } */
+    return kuchbhi;
   }
 }

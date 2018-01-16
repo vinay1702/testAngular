@@ -10,10 +10,10 @@ import { OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
 })
 export class AppComponent implements OnInit {
   title = 'app';
-  obj: Task = JSON.parse('{ "myString": "cds ", "myNumber": 4 }');
+  obj: Task = JSON.parse('{ "myString": "sa ", "myNumber": 4 }');
 
   ngOnInit() {
-    console.log('cdacascsa       -->' + this.obj.myString);
+    console.log('cdacascsa -->' + this.obj.myString);
     console.log(this.obj.myNumber);
     console.log(this.obj);
   }
